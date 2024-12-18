@@ -14,7 +14,7 @@ public class main {
         try {
             return a / b;
         }catch (ArithmeticException e){
-            System.err.println("");
+            System.err.println("Error. Denominator must not be zero.");
             throw e;
         }
 
