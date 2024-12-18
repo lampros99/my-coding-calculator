@@ -17,7 +17,9 @@ public class main {
             System.err.println("Error. Denominator must not be zero.");
             throw e;
         }
-
+    }
+    public static int mul(int a, int b){
+        return a * b;
     }
 
 }
