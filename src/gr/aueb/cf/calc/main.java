@@ -11,5 +11,13 @@ public class main {
         return a - b;
     }
     public static int div(int a, int b) {
-        return a / b;}
+        try {
+            return a / b;
+        }catch (ArithmeticException e){
+            System.err.println("");
+            throw e;
+        }
+
+    }
+
 }
